@@ -1,0 +1,15 @@
+
+.CardBox{
+    display: flex;
+    overflow-x: auto;
+    gap: 15px;
+}
+.Cardimg{
+    height: 400px;
+    transition: transform 0.4s ease;
+    
+}
+.Cardimg:hover{
+    transform: scale(0.8);
+    cursor: pointer;
+}

@@ -1,0 +1,61 @@
+
+
+.HeroSection{
+   height: 90vh;
+   width: 100%;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: 0px -400px;
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+
+}
+
+.HeroSection::after{
+    content: "";
+    height: 90vh;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background: black;
+    opacity: 0.4;
+    z-index: 0;
+    
+
+}
+.infos{
+    padding: 50px;
+    z-index: 99;
+}
+
+.infos h2{
+    z-index: 1;
+    font-size: 99px;
+    color: white;
+}
+.infos p{
+    z-index: 1;
+    font-size: 25px;
+    width: 60vw;
+    color: white;
+}
+.icons{
+    padding-top: 40px;
+    display: flex;
+    gap: 40px;
+}
+
+.infos i{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.infos button{
+    padding: 6px;
+    width: 10vw;
+    border-radius: 8px;
+    border: none;
+}
